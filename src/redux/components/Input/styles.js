@@ -1,8 +1,18 @@
 import styled from "styled-components";
 
 const StyledDiv = styled.div`
-  padding: 20px;
-  background-color: #ebeffc;
+  background-color: rgb(238, 238, 238);
+  border-radius: 12px;
+  margin: 0px auto;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  padding: 30px;
+  gap: 20px;
+  max-width: 1200px;
+  min-width: 800px;
 `;
 
 const StyledInput = styled.input`
@@ -12,13 +22,15 @@ const StyledInput = styled.input`
 `;
 
 const StyledButton = styled.button`
-  background-color: #d7b4e0;
-  border: 0;
-  border-radius: 10px;
-  width: 100px;
-  color: white;
-  font-size: 20px;
+  border: none;
+  height: 40px;
   cursor: pointer;
+  border-radius: 10px;
+  background-color: teal;
+  width: 140px;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  margin-left: 500px;
 `;
 
 const FlexDiv = styled.div`

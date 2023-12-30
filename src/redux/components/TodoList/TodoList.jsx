@@ -15,7 +15,7 @@ function TodoList({ isActive }) {
   return (
     <StyledDiv>
       <StyledTodoListHeader>
-        {isActive ? "해야 할 일 ⛱" : "완료한 일 ✅"}
+        {isActive ? "Working.. 🔥" : "Done..! 🎉"}
       </StyledTodoListHeader>
       <StyledTodoListBox>
         {todos

@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const StyledHeader = styled.div`
-  background-color: #e8ffee;
+  background-color: white;
   padding: 20px;
   font-size: larger;
   font-weight: 700;

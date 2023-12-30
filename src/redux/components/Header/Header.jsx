@@ -10,8 +10,8 @@ import { StyledHeader, StyledP } from "./styles";
 function Header() {
   return (
     <StyledHeader>
-      <StyledP>Sparta Coding Club</StyledP>
-      <StyledP>TODO APP</StyledP>
+      <StyledP>My Todo List</StyledP>
+      <StyledP>React</StyledP>
     </StyledHeader>
   );
 }

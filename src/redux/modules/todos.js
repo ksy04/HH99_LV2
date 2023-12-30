@@ -53,20 +53,14 @@ const initialState = [
   {
     id: uuidv4(),
     title: "리액트 공부하기",
-    contents: "빨리빨리 암기하기",
+    contents: "리엑트를 배워보아용",
     isDone: false,
   },
   {
     id: uuidv4(),
-    title: "스프링 공부하기",
-    contents: "인강 열심히 들어보기!!",
+    title: "HTML",
+    contents: "HTML을 배워보아용",
     isDone: true,
-  },
-  {
-    id: uuidv4(),
-    title: "데이트",
-    contents: "홍대입구역에서 3시까지",
-    isDone: false,
   },
 ];
 

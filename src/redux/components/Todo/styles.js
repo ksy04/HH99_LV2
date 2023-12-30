@@ -4,7 +4,7 @@ const StyledDiv = styled.div`
   padding: 30px 20px 30px 20px;
   width: 200px;
   margin: 10px;
-  background-color: #f2e8ff;
+  background-color: white;
   border-radius: 20px;
 `;
 
@@ -27,7 +27,7 @@ const LinkedP = styled.p`
 `;
 
 const TodoButton = styled.button`
-  background-color: #7684b8;
+  background-color: red;
   width: 49%;
   height: 15px;
   color: white;

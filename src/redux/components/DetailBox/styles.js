@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 const StyledDiv = styled.div`
-  background-color: #fff6e8;
   padding: 20px;
 `;
 
