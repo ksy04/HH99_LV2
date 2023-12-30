@@ -8,12 +8,13 @@ const SWITCH_TODO = "SWITCH_TODO";
 
 /**
  * 메서드 개요 : todo 객체를 입력받아, 기존 todolist에 더함
- * 
+ *
  *
  * @param {todo 객체} payload
  * @returns
  */
 export const addTodo = (payload) => {
+  console.log("addTodo", payload);
   return {
     type: ADD_TODO,
     payload,
@@ -66,6 +67,7 @@ const initialState = [
 
 // reducers
 const todos = (state = initialState, action) => {
+  console.log(state, action);
   switch (action.type) {
     case ADD_TODO: // 기존의 배열에 입력받은 객체를 더함
       return [...state, action.payload];
