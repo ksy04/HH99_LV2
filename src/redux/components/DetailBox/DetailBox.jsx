@@ -5,7 +5,7 @@ import { useSelector } from "react-redux";
 
 /**
  * 컴포넌트 개요 : Todo 메인 컴포넌트에서 각 todo item의 [상세보기]를 선택했을 경우 보이는 컴포넌트 영역
- * 2022.12.16 : 최초 작성
+
  *
  * @returns DetailBox 컴포넌트
  */
