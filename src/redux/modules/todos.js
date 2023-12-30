@@ -8,7 +8,7 @@ const SWITCH_TODO = "SWITCH_TODO";
 
 /**
  * 메서드 개요 : todo 객체를 입력받아, 기존 todolist에 더함
- * 2022.12.16 : 최초작성
+ * 
  *
  * @param {todo 객체} payload
  * @returns
@@ -22,7 +22,7 @@ export const addTodo = (payload) => {
 
 /**
  * 메서드 개요 : todo의 id를 입력받아, 일치하는 todolist를 삭제
- * 2022.12.16 : 최초작성
+ *
  *
  * @param {todo의 id} payload
  * @returns
@@ -36,7 +36,7 @@ export const removeTodo = (payload) => {
 
 /**
  * 메서드 개요 : todo의 id를 입력받아, 일치하는 todo 아이템의 isDone을 반대로 변경
- * 2022.12.16 : 최초작성
+ *
  *
  * @param {*} payload
  * @returns
